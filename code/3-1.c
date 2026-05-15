@@ -8,7 +8,7 @@ int mul(int a, int b) { return a * b; }
 
 int compute(int a, int b, BinOp p) {
     if (p == NULL) {
-        printf("Null Pointer\n");
+        printf("Null pointer\n");
         return -1;
     } else {
         return (*p)(a, b);
